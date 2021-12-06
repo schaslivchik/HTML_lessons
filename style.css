@@ -4,6 +4,14 @@ body {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  
 .wraper-header-content {
     width: 100%;
     background:url(./imgs/background.jpg)center bottom no-repeat;
@@ -37,4 +45,101 @@ body {
 .btn:hover {
     background: #fff;
     color: #119bbf;;
+}
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+    padding: 40px 0;
+}
+.text-center {
+    text-align: center;
+}
+.text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #616161;
+}   
+.text-block{
+    width:100%;
+    max-width: 460px;
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0;
+}
+.title-block {
+    margin: 0 auto 20px;
+    font-size: 32px;
+}
+.blocks-section {
+    background: #000;
+}
+
+.block-item {
+    width: 100%;
+    max-width: 260px;
+    color: #616161;
+    display: inline-block;
+    background: #fff;
+    margin: 10px;
+    height: 410px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.title-h3 {
+    font-size: 21px;
+    color: #000;
+    margin: 5px auto;
+}
+.block-item-img {
+    background-color: transparent;
+    height: 180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.block-item-text {
+    padding: 20px;
+}
+.img-webdevelopment {
+    background-image: url(./imgs/webdevelopmentjpg.jpg);
+}
+.img-mobile {
+    background-image: url(./imgs/mobileapp.jpg);
+}
+.img-marketing {
+    background-image: url(./imgs/marketing.jpg);
+}
+.color-white {
+    color: #fff;
+}
+.blocks-info {
+    letter-spacing: -10px;
+}
+.contact-us,
+.about-us {
+    display: inline-block;
+    width: 50%;
+    font-size: 16px;
+    height: 223px;
+    padding: 45px 60px;
+    text-align: center;
+    letter-spacing: normal;
+    vertical-align: top;
+}
+.contact-us {
+    background-color: #119bbf;
+    color: #fff;    
+}
+.about-us {
+    background-color: #000;
+    color: #fff;
+}
+.mail {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.mail:hover {
+    text-decoration: underline;
 }
