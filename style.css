@@ -143,3 +143,19 @@ html {
 .mail:hover {
     text-decoration: underline;
 }
+.list-copywrite {
+    list-style-type: none;
+    padding: 5px;
+}
+.list-copywrite li {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+.name {
+    color: #119bbf;
+    text-decoration: none;
+}
+.name:hover {
+    text-decoration: underline;
+}
